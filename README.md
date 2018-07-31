@@ -1,7 +1,7 @@
 # two-sum-kata-idea
-Quickly find two numbers that sum to a total in an array up to 5m items long
+Quickly find two numbers in an array that sum to a given total.
 
-You will be given an array of numbers and a target number. This array may be extremely long. Your goal is to find the two numbers which sum to that target and return them. There may be more than one pair of numbers which sum to this target; return the first possible pair `[see below]`. If no such pair is found, return `undefined`.
+You will be given an array of numbers and a target number. This array may be extremely long (up to 5m elements). Your goal is to find the two numbers which sum to that target and return them. There may be more than one pair of numbers which sum to this target; return the first possible pair `[see below]`. If no such pair is found, return `undefined`.
 
 **(The pair that comes 'first' is based on the second number of the pair; indices [452, 453], for example, is considered as coming before [1, 500] (because the first pair's second index (453), is smaller than the second pair's index (500)).**
 
