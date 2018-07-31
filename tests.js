@@ -1,9 +1,11 @@
-//add different operations; add, sub, mult, div. maybe disallow '*', '+', '-', '/' and require String.fromCharCode() just 'cause.
+//add different operations; add, sub, mult, div.
 
-const twoSumSol=(nums, target, operation = "times", cache = new Set)=> {
-  for (let i = 0, len = nums.length, diff; i<len; i++) {
+const twoSumSolution=(nums, target)=> {
+  const cache = new Set()
+  for (let i = 0, len = nums.length; i<len; i++) {
     const num = nums[i]
-    if (cache.has(diff = target-num))
+    ,     diff = target - num;
+    if (cache.has(diff))
       return [diff, num]
     cache.add(num)
   }
