@@ -2,7 +2,7 @@
 
 const twoSumSol = (nums, target) => {
   const cache = new Set()
-  for (let i = 0, len = nums.length; i<len; i++) {
+  for (let i = 0, i < nums.length; i++) {
     const num = nums[i]
     ,     diff = target - num;
     if (cache.has(diff))
