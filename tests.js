@@ -1,6 +1,6 @@
 //add different operations; add, sub, mult, div.
 
-const twoSumSolution=(nums, target)=> {
+const twoSumSol = (nums, target) => {
   const cache = new Set()
   for (let i = 0, len = nums.length; i<len; i++) {
     const num = nums[i]
